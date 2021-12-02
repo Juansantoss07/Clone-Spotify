@@ -228,6 +228,14 @@
         font-size: 30;
     }
 }
+@media(max-width:320px){
+    .h1-section-one{
+        font-size: 20;
+    }
+    .h2-section-one{
+        font-size: 16;
+    }
+}
 @media (max-height:420px){
     .section-one-box2{
         display: none;
