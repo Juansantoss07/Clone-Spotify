@@ -235,4 +235,13 @@
     .section-one{
         height: 120%;
     }
+    .section-two{
+        height: 120%;
+    }
+    .section-two-box1{
+        text-align: center;
+    }
+    .h1-section-one{
+        font-size: 30;
+    }
 }
