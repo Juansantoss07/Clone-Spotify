@@ -114,6 +114,35 @@
     align-items: center;
     justify-content: center;
 }
+.section-two{
+    background-color: #F46EBE;
+    height: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+.section-two-box1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+.links-apps-mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-two-box2{
+    background-color: red;
+    height: 100%;
+}
+.img-section-box2{
+    height: 100%;
+    width: 100%;
+}
 @media(max-width:1259px){
     .navbar{
         display: none;
@@ -150,6 +179,22 @@
     .p-section-one{
         text-align: center;
     }
+    .section-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-two-box1{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0;
+        height: 80%;
+        justify-content: space-around;
+    }
+    .section-two-box2{
+        display: none;
+    }
 }
 @media (max-width:569px){
     .section-one-box1{
@@ -170,6 +215,17 @@
 @media (max-width:280px){
     .logo{
         height: 50%;
+    }
+    .section-two-box1{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .h1-section-one{
+        font-size: 30;
     }
 }
 @media (max-height:420px){
