@@ -167,3 +167,13 @@
         font-size: 40px;
     }
 }
+@media (max-width:280px){
+    .logo{
+        height: 50%;
+    }
+}
+@media (max-height:420px){
+    .section-one-box2{
+        display: none;
+    }
+}
