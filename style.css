@@ -176,4 +176,7 @@
     .section-one-box2{
         display: none;
     }
+    .section-one{
+        height: 120%;
+    }
 }
