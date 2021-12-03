@@ -242,18 +242,19 @@
     .section-two-box2{
         display: none;
     }
+    .section-three{
+        background-image: none;
+    }
+    .section-three-box1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        justify-content: space-evenly;
+    }
 }
-.section-three{
-    background-image: none;
-}
-.section-three-box1{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    justify-content: space-evenly;
-}
+
 @media (max-width:569px){
     .section-one-box1{
         height: 100%;
