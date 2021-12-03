@@ -204,6 +204,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0 6rem;
 }
 .footer-box2{
     padding-top:3rem;
@@ -383,6 +384,7 @@ footer{
     .footer-box2{
         flex-direction: column;
     }
+
 }
 @media (max-width:569px){
     .section-one-box1{
