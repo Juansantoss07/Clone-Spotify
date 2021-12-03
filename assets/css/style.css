@@ -143,6 +143,53 @@
     height: 100%;
     width: 100%;
 }
+.section-three{
+    height: 80%;
+    background-color: rgb(41, 65, 171);
+    background-image: url(img/fundo-section3.svg);
+    background-repeat: round;
+    display: flex;
+    flex-direction: row;
+}
+.h3-section-three{
+    color: #1ED760;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+.h1-section-three{
+    color: #1ED760;
+    font-size: 60px;
+    max-width: 80%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+}
+.h2-section-three{
+    color: #1ED760;
+    max-width: 90%;
+    font-weight: 450;
+}
+.section-three-box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+.btn-section-three{
+    background-color: #1ED760;
+    border: 0 none;
+    color: #2941AB;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+}
 @media(max-width:1259px){
     .navbar{
         display: none;
@@ -196,6 +243,17 @@
         display: none;
     }
 }
+.section-three{
+    background-image: none;
+}
+.section-three-box1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+}
 @media (max-width:569px){
     .section-one-box1{
         height: 100%;
@@ -204,7 +262,7 @@
     .section-one-box2{
       display: none;
     }
-    .btn-section-one{
+    .btn-section-one, .btn-section-three{
         width: 90%;
     }
     .h1-section-one{
@@ -229,10 +287,10 @@
     }
 }
 @media(max-width:320px){
-    .h1-section-one{
+    .h1-section-one, .h1-section-three{
         font-size: 20;
     }
-    .h2-section-one{
+    .h2-section-one, .h2-section-three{
         font-size: 16;
     }
 }
@@ -240,16 +298,13 @@
     .section-one-box2{
         display: none;
     }
-    .section-one{
-        height: 120%;
-    }
-    .section-two{
+    .section-one, .section-two, .section-three{
         height: 120%;
     }
     .section-two-box1{
         text-align: center;
     }
-    .h1-section-one{
+    .h1-section-one, .h1-section-three{
         font-size: 30;
     }
 }
