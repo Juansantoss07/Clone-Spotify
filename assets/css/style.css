@@ -190,6 +190,125 @@
     height: 50px;
     font-size: 16px;
 }
+footer{
+    background-color: black;
+    color: white;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.footer-box1{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-box2{
+    padding-top:3rem;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.space1-footer{
+    width: 12%;
+    height: 20%;
+    height: 100%;
+    padding-top: 1rem;
+}
+.space1-footer img{
+    width: 100%;
+}
+.space2-footer{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.space2-footer h4, .space3-footer h4{
+    color:#919496;
+    text-transform: uppercase;
+}
+.space2-footer a, .space3-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    width: 40%;
+}
+.space2-footer a:hover, .space3-footer a:hover{
+    color: #1ED760;
+}
+
+.space3-footer{
+    width: 20%;
+    height:94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.space4-footer{
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+.icon-footer{
+    background-color: #222326;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.icon-footer i{
+    font-size: 30;
+    color: white;
+}
+.icon-footer i:hover{
+    color: #1ED760;
+}
+.space1-footer-box2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.termos-footer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+}
+.termos-footer a{
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+.termos-footer a:hover{
+    color: #1ED760;
+}
+.copyright{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.copyright span{
+    color: #919496;
+    font-size: 12px;
+}
+
+
+
+
+/*Para aparecer botão menu*/
 @media(max-width:1259px){
     .navbar{
         display: none;
@@ -198,6 +317,7 @@
         display: flex;
     }
 }
+
 @media(max-width:1130px){
     .section-one{
         flex-direction: column;
